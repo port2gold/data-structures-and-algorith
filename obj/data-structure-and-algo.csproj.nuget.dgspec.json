@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\data-structures\\data-structures-and-algorith\\data-structure-and-algo\\data-structure-and-algo.csproj": {}
+    "C:\\Users\\hp\\source\\data-structure-and-algo\\data-structure-and-algo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\data-structures\\data-structures-and-algorith\\data-structure-and-algo\\data-structure-and-algo.csproj": {
+    "C:\\Users\\hp\\source\\data-structure-and-algo\\data-structure-and-algo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\data-structures\\data-structures-and-algorith\\data-structure-and-algo\\data-structure-and-algo.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\data-structure-and-algo\\data-structure-and-algo.csproj",
         "projectName": "data-structure-and-algo",
-        "projectPath": "C:\\Users\\hp\\source\\data-structures\\data-structures-and-algorith\\data-structure-and-algo\\data-structure-and-algo.csproj",
+        "projectPath": "C:\\Users\\hp\\source\\data-structure-and-algo\\data-structure-and-algo.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\data-structures\\data-structures-and-algorith\\data-structure-and-algo\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\data-structure-and-algo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
