@@ -1,0 +1,15 @@
+C:\Users\hp\source\data-structure-and-algo\obj\Debug\net6.0\data-structure-and-algo.csproj.AssemblyReference.cache
+C:\Users\hp\source\data-structure-and-algo\obj\Debug\net6.0\data-structure-and-algo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\data-structure-and-algo\obj\Debug\net6.0\data-structure-and-algo.AssemblyInfoInputs.cache
+C:\Users\hp\source\data-structure-and-algo\obj\Debug\net6.0\data-structure-and-algo.AssemblyInfo.cs
+C:\Users\hp\source\data-structure-and-algo\obj\Debug\net6.0\data-structure-and-algo.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\data-structure-and-algo\bin\Debug\net6.0\data-structure-and-algo.exe
+C:\Users\hp\source\data-structure-and-algo\bin\Debug\net6.0\data-structure-and-algo.deps.json
+C:\Users\hp\source\data-structure-and-algo\bin\Debug\net6.0\data-structure-and-algo.runtimeconfig.json
+C:\Users\hp\source\data-structure-and-algo\bin\Debug\net6.0\data-structure-and-algo.dll
+C:\Users\hp\source\data-structure-and-algo\bin\Debug\net6.0\data-structure-and-algo.pdb
+C:\Users\hp\source\data-structure-and-algo\obj\Debug\net6.0\data-structure-and-algo.dll
+C:\Users\hp\source\data-structure-and-algo\obj\Debug\net6.0\refint\data-structure-and-algo.dll
+C:\Users\hp\source\data-structure-and-algo\obj\Debug\net6.0\data-structure-and-algo.pdb
+C:\Users\hp\source\data-structure-and-algo\obj\Debug\net6.0\data-structure-and-algo.genruntimeconfig.cache
+C:\Users\hp\source\data-structure-and-algo\obj\Debug\net6.0\ref\data-structure-and-algo.dll
