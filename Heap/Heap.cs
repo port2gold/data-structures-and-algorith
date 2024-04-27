@@ -14,6 +14,22 @@
 
             BubbleUp();
         }
+        public void Remove()
+        {
+            IsEmpty();
+
+            items[0] = items[--size];
+
+            var index = 0;
+
+            while(index <= size && !IsValidParent(index))
+            {
+                var largerChildIndex = LargerChildIndex(index);
+                Swap(index, largerChildIndex);
+
+                index = largerChildIndex;
+            }
+        }
         private void BubbleUp()
         {
             int index = size - 1;
@@ -24,9 +40,32 @@
             }
         }
 
+        private int LeftChildIndex(int index)
+        {
+            return index * 2 + 1;
+        }
+        private int RightChildIndex(int index)
+        {
+            return index * 2 + 2;
+        }
+        private int LargerChildIndex(int index)
+        {
+            return items[LeftChildIndex(index)] > items[RightChildIndex(index)] ? LeftChildIndex(index) : RightChildIndex(index);
+        }
+        private bool IsValidParent(int index)
+        {
+            return items[index] > items[LeftChildIndex(index)] && items[index] > items[RightChildIndex(index)];
+        }
         private void IsFull()
         {
             if (size == items.Length)
+            {
+                throw new Exception("Illegal State Exception");
+            }
+        }
+        private void IsEmpty()
+        {
+            if(items.Length == 0)
             {
                 throw new Exception("Illegal State Exception");
             }
@@ -41,6 +80,7 @@
             items[firstIndex] = items[secondIndex];
             items[secondIndex] = temp;
         }
+
 
         public void ShowValues()
         {
