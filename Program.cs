@@ -13,5 +13,4 @@ heap.Insert(60);
 heap.Insert(80);
 heap.Insert(200);
 heap.Remove();
-heap.Remove();
 heap.ShowValues();
