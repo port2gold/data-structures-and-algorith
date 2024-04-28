@@ -48,13 +48,36 @@
         {
             return index * 2 + 2;
         }
+        private bool HasLeftChild(int index)
+        {
+            return LeftChildIndex(index) <= size;
+        }
+
+        private bool HasRightChild(int index) 
+        {  
+            return RightChildIndex(index) <= size;
+        }
         private int LargerChildIndex(int index)
         {
+            if (!HasLeftChild(index))
+                return index;
+
+            if (!HasRightChild(index))
+                return LeftChildIndex(index);
+
             return items[LeftChildIndex(index)] > items[RightChildIndex(index)] ? LeftChildIndex(index) : RightChildIndex(index);
         }
         private bool IsValidParent(int index)
         {
-            return items[index] > items[LeftChildIndex(index)] && items[index] > items[RightChildIndex(index)];
+            if (!HasLeftChild(index))
+                return true;
+
+            var isValid = items[index] > items[LeftChildIndex(index)];
+
+            if (HasRightChild(index))
+                isValid &= items[index] > items[RightChildIndex(index)];
+
+            return isValid;
         }
         private void IsFull()
         {
