@@ -14,10 +14,14 @@
 
             BubbleUp();
         }
-        public void Remove()
+        public int Remove()
         {
-            IsEmpty();
+            if(IsEmpty())
+            {
+                throw new Exception("Illegal State Exception");
+            }
 
+            int itemsToRemove = items[0];
             items[0] = items[--size];
 
             var index = 0;
@@ -29,6 +33,7 @@
 
                 index = largerChildIndex;
             }
+            return itemsToRemove;
         }
         private void BubbleUp()
         {
@@ -86,12 +91,13 @@
                 throw new Exception("Illegal State Exception");
             }
         }
-        private void IsEmpty()
+        public bool IsEmpty()
         {
-            if(items.Length == 0)
+            if(size == 0)
             {
-                throw new Exception("Illegal State Exception");
+                return true;
             }
+            return false;
         }
         private int Parent(int index)
         {
